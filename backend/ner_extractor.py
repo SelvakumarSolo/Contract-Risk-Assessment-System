@@ -23,3 +23,4 @@ def extract_entities(text):
             entities["Jurisdiction"].append(ent.text)
 
     return entities
+
