@@ -1,0 +1,50 @@
+/* ===== Full App Background Image ONLY ===== */
+.stApp {
+    background-image: url("https://wallpapercave.com/wp/wp9276341.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* ===== Make ALL text white ===== */
+* {
+    color: #141111 !important;
+    font-family: "Segoe UI", sans-serif;
+}
+
+/* ===== Main Padding ===== */
+.main {
+    padding: 2rem;
+}
+
+/* ===== File Uploader Box ===== */
+section[data-testid="stFileUploader"] {
+    background: rgba(0, 0, 0, 0.55);
+    padding: 1.6rem;
+    border-radius: 14px;
+    border: none;
+}
+
+/* ===== Clause Expanders ===== */
+.st-expander {
+    background: rgba(0, 0, 0, 0.6);
+    border-radius: 14px;
+    margin-bottom: 1rem;
+}
+
+/* ===== Expander Title ===== */
+.st-expander summary {
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+/* ===== Info Box ===== */
+div[data-testid="stAlert"] {
+    background: rgba(0, 0, 0, 0.55);
+    border-radius: 12px;
+}
+
+/* ===== Remove Streamlit Footer ===== */
+footer {
+    visibility: hidden;
+}
