@@ -15,3 +15,4 @@ def calculate_contract_risk(risk_list):
         return "MEDIUM RISK"
     else:
         return "LOW RISK"
+
