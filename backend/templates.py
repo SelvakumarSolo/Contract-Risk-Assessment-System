@@ -5,3 +5,4 @@ def suggest_alternative(risk):
         return "Clarify scope and limit liability duration."
     else:
         return "Clause appears balanced."
+
