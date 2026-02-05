@@ -27,3 +27,4 @@ def detect_risk(clause):
             return "Medium"
 
     return "Low"
+
