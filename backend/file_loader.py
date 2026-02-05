@@ -21,3 +21,4 @@ def load_file(file):
 
     else:
         raise ValueError("Unsupported file format")
+
