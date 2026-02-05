@@ -6,9 +6,11 @@ st.set_page_config(
     layout="wide"
 )
 
-# ===== Load CSS =====
+from pathlib import Path
+
 def load_css():
-    with open("assets/ui.css") as f:
+    css_path = Path(__file__).parent / "assets" / "ui.css"
+    with open(css_path) as f:
         st.markdown(f"<style>{f.read()}</style>", unsafe_allow_html=True)
 
 load_css()
@@ -74,3 +76,4 @@ if uploaded_file:
         <h1 style="color:#dc2626;">{final_risk}</h1>
     </div>
     """, unsafe_allow_html=True)
+
