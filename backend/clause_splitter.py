@@ -7,3 +7,4 @@ def split_clauses(text):
         flags=re.IGNORECASE
     )
     return [c.strip() for c in clauses if len(c.strip()) > 40]
+
